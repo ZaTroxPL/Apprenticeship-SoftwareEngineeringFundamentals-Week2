@@ -6,8 +6,8 @@ print(len(var))
 
 is_number = False
 
-for i in var:
-    if i.isdigit():
+for character in var:
+    if character.isdigit():
         is_number = True
 
 print(is_number)
